@@ -1,9 +1,15 @@
+ 
 {
-  "domain": "xiaomi_climate_ir_ui",
-  "name": "Xiaomi Climate IR (UI Enhanced)",
-  "version": "0.1.0",
+  "domain": "xiaomi_ir_climate",
+  "name": "Xiaomi IR Climate (UI)",
+  "version": "1.0.0",
   "config_flow": true,
+  "documentation": "https://github.com/Anonym-tsk/homeassistant-climate-xiaomi-remote",
   "requirements": [],
-  "dependencies": ["xiaomi_miio"],
-  "codeowners": ["@nishant713"]
+  "dependencies": [
+    "remote",
+    "climate"
+  ],
+  "codeowners": [],
+  "iot_class": "local_polling"
 }
